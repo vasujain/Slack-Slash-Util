@@ -1,0 +1,21 @@
+    {
+        "version": "1.0.0",
+        "jobs": {
+            "api_url": "https://jobs.search.gov/jobs/search.json",
+            "query": "developer+jobs"
+        },
+        "dogs": {
+            "api_url": "https://dog.ceo/api/breeds/image/random"
+        },
+        "weather": {
+            "api_url": "https://api.weatherbit.io/v2.0/current",
+            "api_key": "******  MASKED  *******",
+            "postal_code": "95054",
+            "country": "US"
+        },
+        "admin_config" : {
+            "slack" : {
+                "slack_token" : "******  MASKED  *******"
+            }
+        }
+    }

@@ -1,0 +1,32 @@
+{
+  "name": "surprise-slash",
+  "version": "1.0.0",
+  "description": "The surprise slash command.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasujain/slack-slash-util.git"
+  },
+  "keywords": [
+    "slack",
+    "slash command"
+  ],
+  "author": "Vasu Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasujain/slack-slash-util/issues"
+  },
+  "homepage": "https://github.com/vasujain/slack-slash-util#readme",
+  "engines": {
+    "node": "5.1.1"
+  },
+  "dependencies": {
+    "botkit": "0.0.5",
+    "botkit-storage-mongo": "^1.0.2",
+    "mongodb": "^1.4.39"
+  }
+}
